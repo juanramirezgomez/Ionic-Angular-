@@ -1,0 +1,49 @@
+/* Aseguramos que el ion-card ocupe todo el ancho disponible */
+ion-card {
+    margin: 16px auto;
+    padding: 16px;
+    max-width: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  /* Título del card */
+  ion-card-title {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f57c00;
+    margin-bottom: 16px;
+  }
+  
+  /* Contenedor de la imagen para centrarla */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  /* Imagen dentro del card */
+  ion-img {
+    max-width: 90%; /* Ancho máximo de la imagen */
+    max-height: 250px; /* Altura máxima */
+    object-fit: contain; /* Ajuste sin deformar */
+    border-radius: 8px
+  }
+
+    /* Botón */
+    ion-button {
+        margin-top: 16px;
+        --background: #f57c00;
+        --background-activated: #f57c00;
+        --color: white;
+      }
+      
+      /* Resultado */
+      p {
+        margin-top: 16px;
+        font-size: 1.2rem;
+        text-align: center;
+        color: #f57c00;
+        font-weight: bold;
+      }
